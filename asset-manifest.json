@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kushwaha/static/css/main.8a295e54.css",
-    "main.js": "/kushwaha/static/js/main.bdd619aa.js",
+    "main.js": "/kushwaha/static/js/main.d51b34da.js",
     "static/js/787.b5c1fbf9.chunk.js": "/kushwaha/static/js/787.b5c1fbf9.chunk.js",
     "static/media/technology-background-build-app.jpg": "/kushwaha/static/media/technology-background-build-app.50a2ca04b095f7adb637.jpg",
     "static/media/HiRes-17-1024x615.jpg": "/kushwaha/static/media/HiRes-17-1024x615.e1e4c6709d15b10126ba.jpg",
@@ -10,11 +10,11 @@
     "static/media/BMI.jpg": "/kushwaha/static/media/BMI.353da8d3637c32bf3cf0.jpg",
     "index.html": "/kushwaha/index.html",
     "main.8a295e54.css.map": "/kushwaha/static/css/main.8a295e54.css.map",
-    "main.bdd619aa.js.map": "/kushwaha/static/js/main.bdd619aa.js.map",
+    "main.d51b34da.js.map": "/kushwaha/static/js/main.d51b34da.js.map",
     "787.b5c1fbf9.chunk.js.map": "/kushwaha/static/js/787.b5c1fbf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8a295e54.css",
-    "static/js/main.bdd619aa.js"
+    "static/js/main.d51b34da.js"
   ]
 }
