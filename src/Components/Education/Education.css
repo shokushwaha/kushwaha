@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+h3{
+    background-color:#3e497a;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.i1{
+    background-color: blue  ;
+    box-shadow: 0px 0px 20px paleturquoise;
+    font-family: serif;
+}
+
+.i2{
+    background-color: green;
+    box-shadow: 0px 0px 20px palegreen;
+}
+
+.i3{
+    background-color: yellow;
+    color: black;
+    box-shadow: 0px 0px 20px palegoldenrod;
+}

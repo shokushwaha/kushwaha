@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+.skills {
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 650px;
+  color: #303179;
+  background-image: url('./technology-background-build-app.jpg');
+  font-family: 'Baloo Bhai 2', cursive;
+}
+
+.skills h1 {
+  color: #141850;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 20px azure;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.skills .list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  /* border: 2px solid red; */
+  width: 240px;
+  background-color: whitesmoke;
+  background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
+  box-shadow: 4px 4px 40px azure;
+  border-radius: 8px;
+  height: 280px;
+  margin-left: 40px;
+}
+
+.list span li {
+  font-size: 20px;
+  padding: 4px;
+  text-align: center;
+  /* margin-top: 0px; */
+}
+
+.item:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  transition-duration: 400ms;
+}
+
+.item h2 {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+.wrap{
+  margin-top: -10px;
+  /* background-image: url('./ache.jpg'); */
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  width: 100vw;
+  box-shadow: 0px 0px 40px coral;
+  background-size: cover;
+}
+.achv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    margin: 10px auto;
+    background-color: azure;
+margin-top: 20px;
+    box-shadow: 0px 0px 20px azure;
+  font-weight: 750;
+  color: #141850;
+  font-size: 40px;
+}
+
+.honors {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: nowrap;
+  padding: 10px;
+}
+
+.awards {
+  /* border: 2px solid black; */
+  border-left: 2px solid coral;
+  border-bottom: 2px solid coral;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  color: #303179;
+  background: radial-gradient(circle at 10% 20%, rgb(47, 232, 244) 0.1%, rgba(160, 244, 202, 0.86) 57.5%);
+  /* margin: 10px 200px; */
+  /* margin-left: 200px; */
+  font-family: cursive;
+  
+  box-shadow: -8px 8px 20px coral;
+
+}
+.awards:hover,.coding:hover{
+  transform: scale(1.1);
+  transition-duration: 400ms;
+  cursor: pointer;
+  box-shadow: 0px 0px 40px coral;
+}
+.awards>ul>li {
+  list-style-type: none;
+
+}
+
+.coding {
+  /* border: 2px solid black; */
+  border-right: 2px solid coral;
+  border-bottom: 2px solid coral;
+  display: flex;
+  flex-direction: column;
+  background: radial-gradient(circle at 10% 20%, rgb(47, 232, 244) 0.1%, rgba(160, 244, 202, 0.86) 57.5%);
+  box-shadow: 8px 8px 20px coral;
+  font-family: cursive;
+  /* margin-left: 600px; */
+}
+
+
+.coding a {
+  text-decoration: none;
+  font-family: cursive;
+  color:#303179;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+
+
+.temp {
+  padding: 4px;
+}

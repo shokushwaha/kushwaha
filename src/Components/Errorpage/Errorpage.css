@@ -1,0 +1,27 @@
+.boxx{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.onee{
+    font-size: 40px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+}
+
+
+
+.twoo{
+    font-size: 20px;
+}
+
+.threee a{
+    color: coral;
+    font-size: 35px;
+}
