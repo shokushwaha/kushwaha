@@ -5,23 +5,31 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background-color: turquoise;
+    box-shadow: 0px 0px 20px black;
 }
 .onee{
     font-size: 40px;
-    width: 200px;
+    width: 400px;
     text-align: center;
     border-radius: 10px;
     color: white;
     background-color: black;
 }
 
-
-
-.twoo{
-    font-size: 20px;
+.onee svg{
+    background-color: coral;
+    font-size: 28px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px coral;
+}
+.onee:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 40px black;
+    transition-duration: 200ms;
+    text-shadow: 0px 0px 20px coral;
+    
+    
 }
 
-.threee a{
-    color: coral;
-    font-size: 35px;
-}

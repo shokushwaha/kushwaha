@@ -16,7 +16,8 @@
     /* border: 2px solid red; */
 display: flex;
 flex-direction: column;
-background: url('./HiRes-17-1024x615.jpg');
+/* background: url('./HiRes-17-1024x615.jpg'); */
+background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 background-repeat: no-repeat;
 background-size: cover;
 height: 600px;

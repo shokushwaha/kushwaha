@@ -7,7 +7,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 650px;
+  height: 650px; 
   color: #303179;
   background-image: url('./technology-background-build-app.jpg');
   font-family: 'Baloo Bhai 2', cursive;
@@ -90,7 +90,14 @@ margin-top: 20px;
   flex-flow: nowrap;
   padding: 10px;
 }
-
+.item svg{
+  color: #141850;
+  margin-top: 4px;
+  padding: 4px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
 .awards {
   /* border: 2px solid black; */
   border-left: 2px solid coral;
@@ -107,7 +114,7 @@ margin-top: 20px;
   box-shadow: -8px 8px 20px coral;
 
 }
-.awards:hover,.coding:hover{
+.awards:hover{
   transform: scale(1.1);
   transition-duration: 400ms;
   cursor: pointer;
@@ -115,7 +122,11 @@ margin-top: 20px;
 }
 .awards>ul>li {
   list-style-type: none;
+  padding: 10px;
 
+}
+.awards svg{
+  color: #141850;
 }
 
 .coding {
@@ -127,21 +138,28 @@ margin-top: 20px;
   background: radial-gradient(circle at 10% 20%, rgb(47, 232, 244) 0.1%, rgba(160, 244, 202, 0.86) 57.5%);
   box-shadow: 8px 8px 20px coral;
   font-family: cursive;
+  width: 300px;
   /* margin-left: 600px; */
 }
 
-
+.coding svg{
+  color: #141850;
+}
 .coding a {
   text-decoration: none;
   font-family: cursive;
   color:#303179;
   margin-top: 10px;
   padding: 10px;
+  font-size: 20px;
 }
 
 
 
-
+.temp:hover{
+  font-weight: 800;
+  /* background-color: coral; */
+}
 .temp {
   padding: 4px;
 }

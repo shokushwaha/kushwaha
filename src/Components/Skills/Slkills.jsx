@@ -1,15 +1,17 @@
 import React from 'react'
 import "./Skills.css"
 import { motion } from 'framer-motion'
+import { Link } from '@mui/material'
+import { ArchiveRounded, CodeSharp, CodeTwoTone, GifBox, Hearing, LinkOffOutlined, LinkRounded, SearchRounded, SkipNextOutlined, WifiRounded } from '@mui/icons-material'
 export default function Skills() {
   return (
 
     <motion.div
       className="container text-center"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 2 }}
+      animate={{ scale:[1,2,2,1,1],
+      rotate:[0,0,270,270,0],
+      borderRadius:["20%","20%","50%","50%","20%"]}}
+      transition={{ duration: 1 }}
 
     >
 
@@ -21,18 +23,18 @@ export default function Skills() {
             <span>
 
 
-              <li>ReactJS & Redux</li>
-              <li>HTML</li>
-              <li>CSS & SCSS</li>
-              <li>NPM + Yarn</li>
-              <li>Bootstrap + Material UI</li>
+              <li>     ReactJS & Redux</li>
+              <li> HTML</li>
+              <li> CSS & SCSS</li>
+              <li> NPM + Yarn</li>
+              <li> Bootstrap + Material UI</li>
             </span>
           </li>
           <li className="item">
             <h2>Back-End</h2>
             <span>
 
-              <li>NodeJS</li>
+              <li> NodeJS</li>
               <li>ExpressJS</li>
               <li>MySQL</li>
               <li>Mongoose</li>
@@ -67,16 +69,16 @@ export default function Skills() {
         <div className="honors">
           <div className="awards">
             <ul>
-              <li>AIR 1739 in Google Kickstart 2022</li>
-              <li>AIR 1739 in Codechef Round 2022</li>
-              <li>300+ Questions on LeetCode</li>
-              <li>250+ QUestions on Geeks For Geeks</li>
+              <li>  <ArchiveRounded/> AIR 1739 in Google Kickstart 2022</li>
+              <li>  <ArchiveRounded/>AIR 1739 in Codechef Round 2022</li>
+              <li> <ArchiveRounded/>300+ Questions on LeetCode</li>
+              <li> <ArchiveRounded/>250+ QUestions on Geeks For Geeks</li>
             </ul>
           </div>
           <div className="coding">
-            <a href="" target="_blank" className='temp'>Leetcode</a>
-            <a href="" target="_blank" className='temp'>Geeks For Geeks</a>
-            <a href="" target="_blank" className='temp'>HackerRank</a>
+            <a href="https://leetcode.com/shobhitkushwaha1406" target="_blank" className='temp'>   <LinkRounded /> Leetcode</a>
+            <a href="https://auth.geeksforgeeks.org/user/kushwahashobhit255" target="_blank" className='temp'> <LinkRounded />  Geeks For Geeks</a>
+            <a href="https://www.hackerrank.com/kushwahashobhit1" target="_blank" className='temp'> <LinkRounded />  HackerRank</a>
           </div>
         </div>
       </div>

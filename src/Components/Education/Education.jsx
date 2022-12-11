@@ -15,10 +15,10 @@ export default function Education() {
 
 <motion.div
     className="container text-center"
-    initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    exit={{ opacity: 0 }}
-    transition={{ duration: 2 }}
+    initial={{opacity:0,x:'-100vh'}}
+    animate={{opacity:1,x:0}}
+    exit={{opacity:0,x:'-100vh'}}
+    transition={{ duration: 1 }}
 
   >
     <div className="exp-box">
