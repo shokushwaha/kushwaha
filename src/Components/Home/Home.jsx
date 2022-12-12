@@ -30,12 +30,14 @@ export default function Home() {
 
     <motion.div
       className="container text-center"
-      initial={{ opacity: 0,scale:0.5 }}
-      animate={{ opacity: 1 ,scale:1}}
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 1 }}
 
     >
+
+
 
       <div className="home">
         <div className="about">
@@ -44,16 +46,27 @@ export default function Home() {
             <p>{intro}</p>
             <a href="https://www.linkedin.com/in/shobhit-kushwaha-aa8578221" target="_blank"> <LinkedIn /></a>
             <a href="https://github.com/shokushwaha" target="_blank "><GitHub /></a>
-          
+
 
           </div>
           <div className="resume">
-            <a href="./Shobhit Kushwaha's Resume.pdf" download><button>
+            <a href="./Shobhit Kushwaha's Resume.pdf" download>
 
-              <Download /> </button></a>
+              <motion.button
+              
+                whileHover={{ scale: 1.1,backgroundColor:"azure",boxShadow:"0px 0px 40px white" }}
+                whileTap={{ scale: 0.9,x:"-5px",y:"5px" }} 
+              >
+
+                <button>
+
+                  <Download />
+                </button>
+              </motion.button>
+            </a>
 
           </div>
-              <div className='resumeSpan'> Resume</div>
+          <div className='resumeSpan'> Resume</div>
         </div>
 
 
@@ -61,6 +74,6 @@ export default function Home() {
       </div>
     </motion.div>
 
- 
+
   )
 }

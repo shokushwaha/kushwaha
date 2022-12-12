@@ -89,7 +89,7 @@
 
 .resume button {
   background-color: coral;
-  box-shadow: 0px 0px 20px black;
+  box-shadow: 0px 0px 20px azure;
   border: none;
   outline: none;
   cursor: pointer;
@@ -104,7 +104,7 @@
 
 .resume button:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 40px black;
+  box-shadow: 0px 0px 40px azure;
 }
 .resumeSpan{
   margin-left: 1300px;
