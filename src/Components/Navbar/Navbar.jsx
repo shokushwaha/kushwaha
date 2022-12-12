@@ -21,6 +21,14 @@ export default function Navbar() {
   return (
 
 
+    <motion.div
+    className="container text-center"
+    initial={{ opacity: 0, y: "-200px" }}
+    animate={{ opacity: 1, y: "0px" }}
+    exit={{ opacity: 0, y: "-200px" }}
+    transition={{ duration: 0.4,}}
+  >
+
 
       <div className='navbar' id={navStatus ? "open" : "close"} >
 
@@ -42,5 +50,6 @@ export default function Navbar() {
 
 
       </div>
+  </motion.div>
   )
 }

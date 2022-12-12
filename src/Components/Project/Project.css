@@ -1,13 +1,19 @@
-
+.wrapbo{
+    background-color: black;
+    margin-top: -10px;
+}
 .heading{
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    border-top: 10px solid black;
     text-align: center;
     width: 200px;
+    border-radius: 8px;
     margin: 10px auto;
     padding: 10px;
-    background: black;
+    background: coral;
     color: azure;
     font-size: 28px;
+    box-shadow: 0px 0px 20px coral;
 
     font-family: cursive;
 }
@@ -20,7 +26,7 @@ flex-direction: column;
 background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
 background-repeat: no-repeat;
 background-size: cover;
-height: 600px;
+/* height: 600px; */
 }
 
 .pro{
