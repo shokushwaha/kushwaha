@@ -17,10 +17,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* background-color: #efe2ba; */
-  /* background-color: turquoise; */
+  background-color: #efe2ba; 
+  background-color: turquoise;
   background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
   color: #14365d;
+
+
 }
 
 .about h2 {
