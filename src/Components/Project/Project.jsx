@@ -14,7 +14,6 @@ import img10 from './hex.png'
 import img11 from './clac.png'
 import img12 from './me.webp'
 import img13 from './task.jpg'
-
 import SingleProject from './SingleProject'
 export default function Project() {
   return (
