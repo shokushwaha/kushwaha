@@ -58,36 +58,16 @@ export default function Project() {
 
 
           {/* random jokes  */}
-          <div className="pro">
-            <img src={img5} alt="Pic1" />
-            <div className="info">
-              <span>Random Jokes </span>
-              <p>Tech : ReactJS , Axios</p>
-              <a href=" https://joke-shobhit.netlify.app/" target='_blank' >Visit</a></div>
-
-
-          </div>
+          <SingleProject name="Random Jokes" img={img5} tech=" ReactJS " url="  https://joke-shobhit.netlify.app/" />
 
 
           {/* old portfolio  */}
+          <SingleProject name="Portfolio" img={img12} tech="  HTML , CSS, Javascript " url=" https://shokushwaha.github.io/kushwaha/" />
 
-          <div className="pro">
-            <img src={img12} alt="Pic1" />
-            <div className="info">
-              <span>Portfolio Website</span>
-              <p>Tech : HTML , CSS, Javascript</p>
-              <a href="  https://shokushwaha.github.io/kushwaha/" target='_blank'>Visit</a></div>
-          </div>
 
           {/* tic tac toe  */}
+          <SingleProject name="Tic Tac Toe" img={img12} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/tictactoe.shobhitkushwaha.github.io/" />
 
-          <div className="pro">
-            <img src={img2} alt="Pic1" />
-            <div className="info">
-              <span>Tic Tac Toe </span>
-              <p>Tech : HTML , CSS, Javascript</p>
-              <a href="https://shokushwaha.github.io/tictactoe.shobhitkushwaha.github.io/" target='_blank'>Visit</a></div>
-          </div>
 
 
           {/* rock paper scissior  */}
