@@ -71,40 +71,16 @@ export default function Project() {
 
 
           {/* rock paper scissior  */}
-          <div className="pro">
-            <img src={img6} alt="Pic1" />
-            <div className="info">
-              <span>Stone Paper Scissior </span>
-              <p>Tech : HTML , CSS, Javascript</p>
-              <a href="https://shokushwaha.github.io/rock_paper_scissor_shobhitkushwaha-github-io/" target='_blank'>Visit</a></div>
+          <SingleProject name="Stone Paper Scissior" img={img6} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/rock_paper_scissor_shobhitkushwaha-github-io/" />
 
-
-          </div>
 
           {/* random hex color generator  */}
-          <div className="pro">
-            <img src={img10} alt="Pic1" />
-            <div className="info">
-              <span>Hex Color Generator</span>
-              <p>Tech : ReactJS , CSS</p>
-              <a href=" https://shokushwaha.github.io/Random-Awesome-Hex-Generator/    " target='_blank'>Visit</a></div>
-
-
-          </div>
+          <SingleProject name="Hex Color Generator" img={img6} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/Random-Awesome-Hex-Generator/" />
 
           {/* Calculator  */}
-          <div className="pro">
-            <img src={img11} alt="Pic1" />
-            <div className="info">
-              <span>Calculator</span>
-              <p>Tech : ReactJS , CSS</p>
-              <a href=" https://shokushwaha.github.io/Calculator/ " target='_blank'>Visit</a></div>
 
+          <SingleProject name="Calculator" img={img11} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/Calculator/" />
 
-          </div>
-
-
-          <SingleProject name="Test" img={img1} tech="test" url="https://shokushwaha.github.io/Calculator/" />
 
         </div>
 
