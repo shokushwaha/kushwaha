@@ -13,6 +13,9 @@ import img9 from './expense.ico'
 import img10 from './hex.png'
 import img11 from './clac.png'
 import img12 from './me.webp'
+
+
+import SingleProject from './SingleProject'
 export default function Project() {
   return (
     <div className="wrapbo">
@@ -33,74 +36,25 @@ export default function Project() {
         <div className="lists">
 
           {/* portfolio website  */}
-          <div className="pro">
-            <img src={img1} alt="Pic1" />
-            <div className="info">
-              <span>Portfolio Website</span>
-              <p>Tech : ReactJS  </p>
-              <a href="/" target='_blank' >Visit</a></div>
-
-
-          </div>
-
+          <SingleProject name="Portfolio Website" img={img1} tech=" ReactJS " url="/" />
           {/* e commerce website  */}
-          <div className="pro">
-            <img src={img7} alt="Pic1" />
-            <div className="info">
-              <span>Ecommerce Website</span>
-              <p>Tech : MERN   </p>
-              <a href="#" target='_blank' onClick={() => {
-                alert(`Site is under development....visit after sometime!!`)
-              }} >Visit</a></div>
+          <SingleProject name="Ecommerce Website" img={img7} tech=" MERN " url="#" />
 
-
-          </div>
           {/* expense tracker  */}
-          <div className="pro">
-            <img src={img9} alt="Pic1" />
-            <div className="info">
-              <span>Expense Tracker</span>
-              <p>Tech : ReactJS </p>
-              <a href="https://expenses-shobhit.netlify.app/ " target='_blank'>Visit</a></div>
+          <SingleProject name="Expense Tracker" img={img9} tech=" ReactJS " url="https://expenses-shobhit.netlify.app/" />
 
-
-          </div>
 
 
           {/* weather app  */}
-          <div className="pro">
-            <img src={img4} alt="Pic1" />
-            <div className="info">
-              <span>Weather App</span>
-              <p>Tech : ReactJS </p>
-              <a href="  https://weathershobhit.netlify.app/" target='_blank'>Visit</a></div>
-
-
-          </div>
+          <SingleProject name="Weather App" img={img4} tech=" ReactJS " url="  https://weathershobhit.netlify.app/" />
           {/* crypto price tracker  */}
-          <div className="pro">
-            <img src={img8} alt="Pic1" />
-            <div className="info">
-              <span>Crypto Price</span>
-              <p>Tech : ReactJS </p>
-              <a href="  https://crypto-shobhit.netlify.app/ " target='_blank'>Visit</a></div>
-
-
-          </div>
+          <SingleProject name="Crypto Price" img={img8} tech=" ReactJS " url=" https://crypto-shobhit.netlify.app/" />
 
 
 
 
           {/* bmi calculator  */}
-          <div className="pro">
-            <img src={img3} alt="Pic1" />
-            <div className="info">
-              <span>BMI Calculator</span>
-              <p>Tech : HTML , CSS , Javascript</p>
-              <a href="https://shokushwaha.github.io/BMI-Calculator/" target='_blank'>Visit</a></div>
-
-
-          </div>
+          <SingleProject name="BMI Calculator" img={img3} tech=" ReactJS " url=" https://shokushwaha.github.io/BMI-Calculator/" />
 
 
           {/* random jokes  */}
@@ -169,6 +123,8 @@ export default function Project() {
 
           </div>
 
+
+          <SingleProject name="Test" img={img1} tech="test" url="https://shokushwaha.github.io/Calculator/" />
 
         </div>
 
