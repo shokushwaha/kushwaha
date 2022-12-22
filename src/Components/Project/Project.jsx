@@ -51,7 +51,7 @@ export default function Project() {
           {/* random jokes  */}
           <SingleProject name="Random Jokes" img={img5} tech=" ReactJS " url="  https://joke-shobhit.netlify.app/" />
           {/* old portfolio  */}
-          <SingleProject name="Portfolio" img={img12} tech="  HTML , CSS, Javascript " url=" https://shokushwaha.github.io/kushwaha/" />
+          <SingleProject name="Portfolio" img={img12} tech="  HTML , CSS, Javascript " url="  https://shokushwaha.github.io/ImShobhitKushwaha.github.io/" />
           {/* tic tac toe  */}
           <SingleProject name="Tic Tac Toe" img={img2} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/tictactoe.shobhitkushwaha.github.io/" />
           {/* rock paper scissior  */}
