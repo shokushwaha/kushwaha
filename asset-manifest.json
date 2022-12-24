@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kushwaha/static/css/main.d5ad5384.css",
-    "main.js": "/kushwaha/static/js/main.659924de.js",
-    "static/js/787.b5c1fbf9.chunk.js": "/kushwaha/static/js/787.b5c1fbf9.chunk.js",
+    "main.css": "/kushwaha/static/css/main.cb28ec76.css",
+    "main.js": "/kushwaha/static/js/main.2c78fa45.js",
+    "static/media/Shobhit.pdf": "/kushwaha/static/media/Shobhit.01de5dc8de83d10d3b30.pdf",
     "static/media/sps.png": "/kushwaha/static/media/sps.0aecd863bf1629e62a6b.png",
     "static/media/me.webp": "/kushwaha/static/media/me.4e16ae0fe89620292e81.webp",
     "static/media/proj2.jpg": "/kushwaha/static/media/proj2.496e4d289eaa0f409ab8.jpg",
@@ -15,12 +15,11 @@
     "static/media/BMI.jpg": "/kushwaha/static/media/BMI.353da8d3637c32bf3cf0.jpg",
     "static/media/clac.png": "/kushwaha/static/media/clac.324896cbdd29f39eda3f.png",
     "index.html": "/kushwaha/index.html",
-    "main.d5ad5384.css.map": "/kushwaha/static/css/main.d5ad5384.css.map",
-    "main.659924de.js.map": "/kushwaha/static/js/main.659924de.js.map",
-    "787.b5c1fbf9.chunk.js.map": "/kushwaha/static/js/787.b5c1fbf9.chunk.js.map"
+    "main.cb28ec76.css.map": "/kushwaha/static/css/main.cb28ec76.css.map",
+    "main.2c78fa45.js.map": "/kushwaha/static/js/main.2c78fa45.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5ad5384.css",
-    "static/js/main.659924de.js"
+    "static/css/main.cb28ec76.css",
+    "static/js/main.2c78fa45.js"
   ]
 }
