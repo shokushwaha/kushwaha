@@ -92,11 +92,6 @@ export default function Skills() {
       <div className="wrap">
         <div className="achv">Achievements</div>
         <div className="honors">
-          <div className="coding">
-            <a href="https://leetcode.com/shobhitkushwaha1406" target="_blank" className='temp'>   <LinkRounded /> Leetcode</a>
-            <a href="https://auth.geeksforgeeks.org/user/kushwahashobhit255" target="_blank" className='temp'> <LinkRounded />  Geeks For Geeks</a>
-            <a href="https://www.hackerrank.com/kushwahashobhit1" target="_blank" className='temp'> <LinkRounded />  HackerRank</a>
-          </div>
           <div className="awards">
             <ul>
               <li>  <ArchiveRounded /> AIR 1739 in Google Kickstart 2022</li>
@@ -105,7 +100,11 @@ export default function Skills() {
               <li> <ArchiveRounded />250+ QUestions on Geeks For Geeks</li>
             </ul>
           </div>
-
+          <div className="coding">
+            <a href="https://leetcode.com/shobhitkushwaha1406" target="_blank" className='tempp'>   <LinkRounded /> Leetcode</a>
+            <a href="https://auth.geeksforgeeks.org/user/kushwahashobhit255" target="_blank" className='tempp'> <LinkRounded />  Geeks For Geeks</a>
+            <a href="https://www.hackerrank.com/kushwahashobhit1" target="_blank" className='tempp'> <LinkRounded />  HackerRank</a>
+          </div>
         </div>
       </div>
 
