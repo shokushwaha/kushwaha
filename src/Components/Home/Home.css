@@ -5,7 +5,7 @@
   align-items: center;
   font-family: "Arial", sans-serif;
   color: #c3073f;
-  background-color: #4e4350;
+  background-color: #122223;
   height: 100%;
   /* box-shadow: 0px 40px 40px greenyellow; */
 }
@@ -20,8 +20,9 @@
   text-align: center;
   background-color: #efe2ba;
   background-color: turquoise;
-  background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
-  color: #14365d;
+  background: #122223;
+  color: #da9e63;
+  /* margin-top: -40px; */
 
 
 }
@@ -29,9 +30,9 @@
 .about h2 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 80px;
-  color: #301008;
+  color: #da9e63;
   height: 100px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   font-family: 'Unbounded', cursive;
   margin-top: 100px;
   /* border-top: 2px solid #f13c20; */
@@ -41,8 +42,8 @@
 }
 
 .about span {
-  background-color: coral;
-  color: black;
+  background-color: #122223;
+  color: #da9e63;
   margin-left: -970px;
   box-shadow: 0px 0px 20px black;
   border-radius: 10px;
@@ -59,9 +60,9 @@
 .prompt svg {
   font-size: 60px;
   margin: 5px;
-  color: black;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
+  color: #eae5d2;
+  border-top: 2px solid #eae5d2;
+  border-left: 2px solid #eae5d2;
   border-radius: 4px;
   transition: all;
   margin-top: 20px;
@@ -83,43 +84,16 @@
   transition-duration: 400ms;
   border-radius: 4px;
   box-shadow: 0px 0px 20px coral;
-  background-color: coral;
+  background-color: #da9e63;
+  color: #122223;
 }
 
-.resume {
-  /* border: 4px solid black; */
-  margin-left: 1300px;
-  margin-top: -60px;
-}
-
-.resume button {
-  background-color: coral;
-  box-shadow: 0px 0px 20px azure;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  /* width: 100px; */
-  border-radius: 50%;
-  padding: 10px;
-}
-
-.resume button svg {
-  font-size: 40px;
-}
-
-.resume button:hover {
-  transform: scale(1.1);
-  box-shadow: 0px 0px 40px azure;
-}
-
-.resumeSpan {
-  margin-left: 1300px;
-  margin-top: 10px;
-  background-color: azure;
-  color: black;
-  padding: 4px;
-  border-radius: 4px;
-  box-shadow: 0px 0px 20px azure;
+.lines {
+  width: 80%;
+  margin: 10px auto;
+  font-size: 1rem;
+  color: #eae5d2;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 @media screen and (max-width: 600px) {
@@ -127,12 +101,16 @@
     height: 100%;
   }
 
+  .about {
+    margin-top: -110px;
+  }
+
   .about h2 {
     font-size: 40px;
   }
 
   .about .prompt {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     font-size: 20px;
     width: auto;
     height: auto;
@@ -144,12 +122,6 @@
 
   }
 
-  .resume {
-    border: 2px solid red;
-    position: absolute;
-    top: 600px;
-    left: -1600px;
-  }
 
   .skills h2 {
     font-size: 30px;
