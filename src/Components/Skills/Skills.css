@@ -117,7 +117,7 @@
   box-shadow: 0px 0px 20px #eae5d2;
   /* margin: 10px 200px; */
   /* margin-left: 200px; */
-  font-family: cursive;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0px auto;
   width: 25%;
   height: 15%;
@@ -152,7 +152,7 @@
   flex-direction: column;
   background-color: #eae5d2;
   box-shadow: 0px 0px 20px #eae5d2;
-  font-family: cursive;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   width: 300px;
   margin: 0px auto;
   border: 10px;
