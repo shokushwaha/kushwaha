@@ -16,7 +16,7 @@ export default function Errorpage() {
         initial={{ opacity: 0, x: '-100vh' }}
         animate={{ opacity: 1, x: 0 }}
         exit={{ opacity: 0, x: '-100vh' }}
-        transition={{ duration: 1 }}
+        transition={{ duration: 1, delay: 0.4 }}
 
       >
         <div className='boxx'>
