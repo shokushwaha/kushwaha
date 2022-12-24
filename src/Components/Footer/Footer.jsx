@@ -1,7 +1,7 @@
 import React from "react";
 
 import { EmailSharp } from "@mui/icons-material";
-import resume from "./Shobhit .pdf"
+import resume from "./Shobhit.pdf"
 import "./Footer.css";
 
 function Footer() {
