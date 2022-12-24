@@ -17,7 +17,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #efe2ba; 
+  background-color: #efe2ba;
   background-color: turquoise;
   background: linear-gradient(91.9deg, rgb(93, 248, 219) 27.8%, rgb(33, 228, 246) 67%);
   color: #14365d;
@@ -47,7 +47,7 @@
   border-radius: 10px;
   font-size: 50px;
   padding: 4px;
-  
+
 }
 
 .about .prompt {
@@ -65,13 +65,15 @@
   transition: all;
   margin-top: 20px;
 }
-.prompt p{
+
+.prompt p {
   font-family: 'Unbounded', cursive;
   padding: 4px;
   margin-top: 130px;
-  
+
   font-weight: 800;
-} 
+}
+
 .prompt svg:hover {
   border-top: 0px;
   border-left: 0px;
@@ -84,7 +86,7 @@
 }
 
 .resume {
-  /* border: 4px solid black; */  
+  /* border: 4px solid black; */
   margin-left: 1300px;
   margin-top: -60px;
 }
@@ -108,7 +110,8 @@
   transform: scale(1.1);
   box-shadow: 0px 0px 40px azure;
 }
-.resumeSpan{
+
+.resumeSpan {
   margin-left: 1300px;
   margin-top: 10px;
   background-color: azure;
@@ -117,7 +120,8 @@
   border-radius: 4px;
   box-shadow: 0px 0px 20px azure;
 }
-@media only screen and (max-width: 600px) {
+
+@media screen and (max-width: 600px) {
   .about h2 {
     font-size: 40px;
   }
@@ -134,4 +138,3 @@
     font-size: 30px;
   }
 }
-

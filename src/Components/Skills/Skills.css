@@ -7,7 +7,7 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 650px; 
+  height: 650px;
   color: #303179;
   background-image: url('./technology-background-build-app.jpg');
   font-family: 'Baloo Bhai 2', cursive;
@@ -57,7 +57,8 @@
   text-align: center;
   font-size: 30px;
 }
-.wrap{
+
+.wrap {
   margin-top: -10px;
   /* background-image: url('./ache.jpg'); */
   background-color: whitesmoke;
@@ -66,17 +67,18 @@
   box-shadow: 0px 0px 40px coral;
   background-size: cover;
 }
+
 .achv {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    width: 300px;
-    margin: 10px auto;
-    background-color: azure;
-margin-top: 20px;
-    box-shadow: 0px 0px 20px azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  width: 300px;
+  margin: 10px auto;
+  background-color: azure;
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px azure;
   font-weight: 750;
   color: #141850;
   font-size: 40px;
@@ -90,7 +92,8 @@ margin-top: 20px;
   flex-flow: nowrap;
   padding: 10px;
 }
-.item svg{
+
+.item svg {
   color: #141850;
   margin-top: 4px;
   padding: 4px;
@@ -98,6 +101,7 @@ margin-top: 20px;
   /* align-items: center; */
   /* justify-content: center; */
 }
+
 .awards {
   /* border: 2px solid black; */
   border-left: 2px solid coral;
@@ -110,22 +114,25 @@ margin-top: 20px;
   /* margin: 10px 200px; */
   /* margin-left: 200px; */
   font-family: cursive;
-  
+
   box-shadow: -8px 8px 20px coral;
 
 }
-.awards:hover{
+
+.awards:hover {
   transform: scale(1.1);
   transition-duration: 400ms;
   cursor: pointer;
   box-shadow: 0px 0px 40px coral;
 }
+
 .awards>ul>li {
   list-style-type: none;
   padding: 10px;
 
 }
-.awards svg{
+
+.awards svg {
   color: #141850;
 }
 
@@ -142,13 +149,14 @@ margin-top: 20px;
   /* margin-left: 600px; */
 }
 
-.coding svg{
+.coding svg {
   color: #141850;
 }
+
 .coding a {
   text-decoration: none;
   font-family: cursive;
-  color:#303179;
+  color: #303179;
   margin-top: 10px;
   padding: 10px;
   font-size: 20px;
@@ -156,12 +164,49 @@ margin-top: 20px;
 
 
 
-.temp:hover{
+.temp:hover {
   font-weight: 800;
   /* background-color: coral; */
 }
+
 .temp {
   padding: 4px;
 }
 
 
+
+@media screen and (max-width: 600px) {
+
+  .skills {
+    height: 100%;
+  }
+
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    line-height: 40px;
+    padding: 20px;
+  }
+
+  .item {
+    margin: 10px auto;
+  }
+
+  .honors {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .awards {
+    margin: 10px auto;
+  }
+
+  .coding {
+    margin: 10px auto;
+
+  }
+
+}
