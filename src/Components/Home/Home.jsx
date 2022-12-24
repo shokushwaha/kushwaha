@@ -19,11 +19,7 @@ export default function Home() {
     }
   }, [cnt]);
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIntro(quote);
-  //   }, 4000)
-  // }, []);
+
 
   return (
 
@@ -43,8 +39,8 @@ export default function Home() {
         <div className="about">
           <h2>  <span> Hi! </span><br /> {text} </h2>
           <div className="prompt">
-            
-          <motion.div
+
+            <motion.div
               className="container text-center"
               initial={{ opacity: 0, x: "1000px" }}
               animate={{ opacity: 1, x: "0px" }}
@@ -52,7 +48,7 @@ export default function Home() {
               transition={{ duration: 1, delay: 1 }}
             >
 
-            <p>{quote}</p>
+              <p>{quote}</p>
             </motion.div>
 
 
@@ -69,24 +65,8 @@ export default function Home() {
             </motion.div>
 
           </div>
-          <div className="resume">
-            <a href="./Shobhit Kushwaha's Resume.pdf" download>
 
-              <motion.button
 
-                whileHover={{ scale: 1.1, backgroundColor: "azure", boxShadow: "0px 0px 40px white" }}
-                whileTap={{ scale: 0.9, x: "-5px", y: "5px" }}
-              >
-
-                <button>
-
-                  <Download />
-                </button>
-              </motion.button>
-            </a>
-
-          </div>
-          <div className='resumeSpan'> Resume</div>
         </div>
 
 

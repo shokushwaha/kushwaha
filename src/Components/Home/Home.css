@@ -6,6 +6,7 @@
   font-family: "Arial", sans-serif;
   color: #c3073f;
   background-color: #4e4350;
+  height: 100%;
   /* box-shadow: 0px 40px 40px greenyellow; */
 }
 
@@ -122,6 +123,10 @@
 }
 
 @media screen and (max-width: 600px) {
+  .home {
+    height: 100%;
+  }
+
   .about h2 {
     font-size: 40px;
   }
@@ -129,10 +134,22 @@
   .about .prompt {
     margin-top: 10px;
     font-size: 20px;
-    width: 80%;
+    width: auto;
+    height: auto;
+
   }
 
+  .about {
+    display: flex;
 
+  }
+
+  .resume {
+    border: 2px solid red;
+    position: absolute;
+    top: 600px;
+    left: -1600px;
+  }
 
   .skills h2 {
     font-size: 30px;
