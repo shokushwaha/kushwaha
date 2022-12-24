@@ -50,10 +50,16 @@ export default function Home() {
 
               <p>{quote}</p>
             </motion.div>
-
-            <div className="lines">
-              Full Stack web developer with a flair for creating elegant solutions in the least amount of time. I love to code and talk about Development and loves to solve problems. Feel free to reach me....
-            </div>
+            <motion.div
+              className="container text-center"
+              initial={{ opacity: 0, x: "-0px" }}
+              animate={{ opacity: 1, x: "0px" }}
+              exit={{ opacity: 0, x: "0px" }}
+              transition={{ duration: 2, delay: 2 }}
+            >
+              <div className="lines">
+                Full Stack web developer with a flair for creating elegant solutions in the least amount of time. I love to code and talk about Development and loves to solve problems. Feel free to reach me....
+              </div> </motion.div>
             <motion.div
               className="container text-center"
               initial={{ opacity: 0, y: "200px" }}

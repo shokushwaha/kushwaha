@@ -15,9 +15,9 @@ export default function Experience() {
 
       <motion.div
         className="container text-center"
-        initial={{opacity:0,x:'200vh'}}
-        animate={{opacity:1,x:0}}
-        exit={{opacity:0,x:'200vh'}}
+        initial={{ opacity: 0, x: '200vh' }}
+        animate={{ opacity: 1, x: 0 }}
+        exit={{ opacity: 0, x: '200vh' }}
         transition={{ duration: 1 }}
 
       >
@@ -27,18 +27,20 @@ export default function Experience() {
         <div className="exp-box">
 
           <div className="experience">
-            <VerticalTimeline lineColor="#3e497a">
+            <VerticalTimeline lineColor="#3e497a" backgroundColor="#122223">
+
+
 
 
 
 
               <VerticalTimelineElement
-                className="vertical-timeline-element--work"
+                className="vertical-timeline-element--work   myhead"
                 date="June 2022-July 2022"
-                iconStyle={{ background: "blue", color: "#fff", boxShadow:"0px 0px 40px blue" }}
+                iconStyle={{ background: "#da9e63", color: " #122223", boxShadow: "0px 0px 40px #efe2ba" }}
                 icon={<Work />}
               >
-                <h3 className="vertical-timeline-element-title  i1 ">
+                <h3 className="vertical-timeline-element-title  i1 " backgroundColor="#122223"  >
                   Content Developer - MathonGo
                 </h3>
                 <h4 className="vertical-timeline-element-subtitle">
@@ -48,10 +50,11 @@ export default function Experience() {
               </VerticalTimelineElement>
 
 
+
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="June 2022 - September 2022"
-                iconStyle={{ background: "green", color: "#fff", boxShadow:"0px 0px 40px green" }}
+                iconStyle={{ background: "#da9e63", color: " #122223", boxShadow: "0px 0px 40px #efe2ba" }}
                 icon={<Work />}
               >
                 <h3 className="vertical-timeline-element-title i2">
@@ -69,7 +72,7 @@ export default function Experience() {
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 date="August 2022 - Present"
-                iconStyle={{ background: "yellow", color: "black", boxShadow:"0px 0px 40px yellow" }}
+                iconStyle={{ background: "#da9e63", color: " #122223 ", boxShadow: "0px 0px 40px #efe2ba" }}
                 icon={<Work />}
               >
                 <h3 className="vertical-timeline-element-title i3">

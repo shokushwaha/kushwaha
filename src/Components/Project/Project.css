@@ -71,7 +71,12 @@
 }
 
 .info span {
+    color: #122223;
     font-weight: 800;
+}
+
+.info p {
+    color: #122223;
 }
 
 .info a {
