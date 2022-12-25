@@ -27,9 +27,9 @@ export default function Skills() {
 
 
                 <li>ReactJS & Redux</li>
+                <li>NextJS</li>
                 <li> HTML</li>
                 <li> CSS & SCSS</li>
-                <li> NPM + Yarn</li>
                 <li> Bootstrap + Material UI</li>
               </span>
             </li>
@@ -45,11 +45,12 @@ export default function Skills() {
               <h2>Back-End</h2>
               <span>
 
-                <li> NodeJS</li>
+                <li>NodeJS</li>
                 <li>ExpressJS</li>
-                <li>MySQL</li>
+                <li>Typescript</li>
                 <li>Mongoose</li>
                 <li>MongoDB</li>
+                <li>MySQL</li>
               </span>
             </li></motion.div>
           <motion.div
@@ -79,10 +80,11 @@ export default function Skills() {
             <li className="item">
               <h2>Other Tech</h2>
               <span>
+                <li> NPM + Yarn</li>
                 <li>Apache</li>
                 <li>XAMP</li>
                 <li>VS Code</li>
-                <li>Andriod Studio</li>
+                <li>Android Studio</li>
                 <li>Linux</li>
               </span>
             </li>
@@ -95,9 +97,9 @@ export default function Skills() {
           <div className="awards">
             <ul>
               <li>  <ArchiveRounded /> AIR 1739 in Google Kickstart 2022</li>
-              <li>  <ArchiveRounded />AIR 1739 in Codechef Round 2022</li>
+              <li>  <ArchiveRounded />AIR 201 in Codechef Starters 2022</li>
               <li> <ArchiveRounded />300+ Questions on LeetCode</li>
-              <li> <ArchiveRounded />250+ QUestions on Geeks For Geeks</li>
+              <li> <ArchiveRounded />250+ Questions on Geeks For Geeks</li>
             </ul>
           </div>
           <div className="coding">
