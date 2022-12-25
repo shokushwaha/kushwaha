@@ -1,4 +1,4 @@
-import { School, Work } from '@mui/icons-material';
+import { Work } from '@mui/icons-material';
 import React from 'react'
 import {
   VerticalTimeline,
@@ -71,7 +71,7 @@ export default function Experience() {
 
               <VerticalTimelineElement
                 className="vertical-timeline-element--work"
-                date="August 2022 - Present"
+                date="August 2022 - December 2022"
                 iconStyle={{ background: "#da9e63", color: " #122223 ", boxShadow: "0px 0px 40px #efe2ba" }}
                 icon={<Work />}
               >
@@ -83,6 +83,24 @@ export default function Experience() {
                 </h4>
                 <p>
                   Managing recruting process and internal working of the organisation.
+                </p>
+              </VerticalTimelineElement>
+
+
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="December 2022 - Present"
+                iconStyle={{ background: "#da9e63", color: " #122223 ", boxShadow: "0px 0px 40px #efe2ba" }}
+                icon={<Work />}
+              >
+                <h3 className="vertical-timeline-element-title i3">
+                  Senior Coordinator - engineerHUB
+                </h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  Internship
+                </h4>
+                <p>
+                  Senior Coordinator in Internal Management Team.
                 </p>
               </VerticalTimelineElement>
             </VerticalTimeline>
