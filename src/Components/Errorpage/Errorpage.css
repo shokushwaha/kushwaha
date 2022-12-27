@@ -3,7 +3,7 @@
     width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     background-color: #122223;
     z-index: 1;
@@ -15,6 +15,7 @@
     text-align: center;
     border-radius: 10px;
     color: #da9e63;
+    margin-top: 240px;
 
 }
 
