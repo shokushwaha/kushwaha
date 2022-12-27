@@ -15,7 +15,7 @@ function Footer() {
         <div className="three">shobhitkushwaha1406@gmail.com</div>
         <div className="four"><a href={resume} target="_blank">Send Email</a></div>
       </div>
-      <p className="copyRight"> &copy; 2022 Shobhit Kushwaha</p>
+      <p className="copyRight"> &copy; 2023 Shobhit Kushwaha</p>
     </>
   );
 }

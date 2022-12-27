@@ -24,7 +24,7 @@ export default function Errorpage() {
 
 
           <div className="onee">
-            <NavLink to="/">Get Started  <ArrowForward /> </NavLink>
+            <NavLink to="/">Welcome!   <ArrowForward /> </NavLink>
           </div>
         </div>
       </motion.div>
