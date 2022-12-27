@@ -2,16 +2,16 @@
 
 .navbar {
   width: 100%;
-  height: 100px;
+  height: 200px;
   background-color: #122223;
   font-family: 'Ubuntu', sans-serif;
+  margin-bottom: -80px;
 
 }
 
 
 .links {
   width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,11 +26,25 @@
   margin: 0px auto;
 }
 
+.links a {
+  margin: 0px 20px;
+  font-size: 1.9rem
+}
+
 .navbar a {
   color: #da9e63;
   text-decoration: none;
   margin: 20px;
   font-size: 25px;
+}
+
+.navbar a:hover {
+  background-color: #efe2ba;
+  width: auto;
+  border-radius: 4px;
+  padding: 4px;
+  text-align: center;
+  color: #122223;
 }
 
 .active {
@@ -60,6 +74,11 @@
 
 
 @media screen and (max-width: 600px) {
+  .navbar {
+    height: 100px;
+    margin-bottom: -40px;
+  }
+
   .links {
     height: 50px;
     display: flex;
