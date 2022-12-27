@@ -30,26 +30,20 @@ export default function Navbar() {
     >
 
 
-      <div className='navbar' id={navStatus ? "open" : "close"} >
+      <div className="links">
 
-        <div className="toggleButton">
-          <button onClick={setNavBehav} ><ReorderRounded /></button>
-        </div>
-
-        <div className="links">
-
-          <NavLink to="/">Home</NavLink>
-          <NavLink to="/skill">Skills</NavLink>
-          <NavLink to="/project">Projects</NavLink>
-          <NavLink to="/education">Education</NavLink>
-          <NavLink to="/experience">Experience</NavLink>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/skill">Skills</NavLink>
+        <NavLink to="/project">Projects</NavLink>
+        <NavLink to="/education">Education</NavLink>
+        <NavLink to="/experience">Experience</NavLink>
 
 
 
-        </div>
-
-        <div className="temp"></div>
       </div>
+
+      <div className="temp"></div>
+
     </motion.div>
   )
 }
