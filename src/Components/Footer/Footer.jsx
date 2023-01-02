@@ -13,7 +13,7 @@ function Footer() {
         <div className="one">Connect With Me</div>
         <div className="two"> <EmailSharp /> </div>
         <div className="three">shobhitkushwaha1406@gmail.com</div>
-        <div className="four"><a href={resume} target="_blank">Send Email</a></div>
+        <div className="four"><a href="mailto:shobhitkushwaha1406@gmail.com" target="_blank">Send Email</a></div>
       </div>
       <p className="copyRight"> &copy; 2023 Shobhit Kushwaha</p>
     </>
