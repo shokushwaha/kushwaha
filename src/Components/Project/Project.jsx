@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Project.css'
 import { motion } from 'framer-motion'
 import img1 from './PORTFOLIO.webp'
@@ -16,6 +16,8 @@ import img12 from './me.webp'
 import img13 from './task.jpg'
 import SingleProject from './SingleProject'
 export default function Project() {
+
+
   return (
     <div className="wrapbo">
 
