@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kushwaha/static/css/main.8ad3da11.css",
-    "main.js": "/kushwaha/static/js/main.484a4d30.js",
+    "main.js": "/kushwaha/static/js/main.6705bb66.js",
     "static/media/Shobhit.pdf": "/kushwaha/static/media/Shobhit.01de5dc8de83d10d3b30.pdf",
     "static/media/sps.png": "/kushwaha/static/media/sps.0aecd863bf1629e62a6b.png",
     "static/media/me.webp": "/kushwaha/static/media/me.4e16ae0fe89620292e81.webp",
@@ -14,12 +14,13 @@
     "static/media/joke.png": "/kushwaha/static/media/joke.dfd5a8fd8e22721b803a.png",
     "static/media/BMI.jpg": "/kushwaha/static/media/BMI.353da8d3637c32bf3cf0.jpg",
     "static/media/clac.png": "/kushwaha/static/media/clac.324896cbdd29f39eda3f.png",
+    "static/media/img20.webp": "/kushwaha/static/media/img20.97916b23378305a6092b.webp",
     "index.html": "/kushwaha/index.html",
     "main.8ad3da11.css.map": "/kushwaha/static/css/main.8ad3da11.css.map",
-    "main.484a4d30.js.map": "/kushwaha/static/js/main.484a4d30.js.map"
+    "main.6705bb66.js.map": "/kushwaha/static/js/main.6705bb66.js.map"
   },
   "entrypoints": [
     "static/css/main.8ad3da11.css",
-    "static/js/main.484a4d30.js"
+    "static/js/main.6705bb66.js"
   ]
 }
