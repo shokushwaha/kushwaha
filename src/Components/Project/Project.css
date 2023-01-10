@@ -42,7 +42,7 @@
     margin: 10px auto;
     border-radius: 8px;
     padding: 10px;
-    height: 100px;
+    height: 120px;
     background-color: #eae5d2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 20px;
@@ -92,8 +92,25 @@
 
 .info a:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: translateY(-3px);
     box-shadow: 0px 0px 10px #122223;
+    color: black;
+    background-color: gold;
+}
+
+.x {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+
+.x a {
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 @media screen and (max-width: 600px) {
@@ -118,5 +135,10 @@
         margin: 10px auto;
         margin-left: 20px;
 
+    }
+
+    .x {
+        display: flex;
+        flex-direction: column;
     }
 }
