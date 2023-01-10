@@ -74,8 +74,9 @@
 
 .four:hover {
   box-shadow: 0px 0px 20px black;
-  background: #da9e63;
+  background: gold;
   transition-duration: 200ms;
+  color: black;
 }
 
 .four a:hover {
