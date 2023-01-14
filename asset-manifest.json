@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/kushwaha/static/css/main.c7b2cf4e.css",
-    "main.js": "/kushwaha/static/js/main.24517c1a.js",
+    "main.css": "/kushwaha/static/css/main.6f8a0cce.css",
+    "main.js": "/kushwaha/static/js/main.00f082f0.js",
+    "static/media/weather.png": "/kushwaha/static/media/weather.510ccd9c72fa82b9e6e9.png",
+    "static/media/sps.png": "/kushwaha/static/media/sps.acf1743d16b2bdaa93d3.png",
+    "static/media/hex.png": "/kushwaha/static/media/hex.28e3d41714e875f73a04.png",
+    "static/media/news.png": "/kushwaha/static/media/news.a681b916350ca465da83.png",
+    "static/media/receipe.png": "/kushwaha/static/media/receipe.89ad44dba11f0d22cfc5.png",
+    "static/media/crypto.png": "/kushwaha/static/media/crypto.63c83665fa5bf1ae225d.png",
     "static/media/Shobhit.pdf": "/kushwaha/static/media/Shobhit.01de5dc8de83d10d3b30.pdf",
-    "static/media/sps.png": "/kushwaha/static/media/sps.0aecd863bf1629e62a6b.png",
-    "static/media/me.webp": "/kushwaha/static/media/me.4e16ae0fe89620292e81.webp",
-    "static/media/proj2.jpg": "/kushwaha/static/media/proj2.496e4d289eaa0f409ab8.jpg",
-    "static/media/TICTACTOE.png": "/kushwaha/static/media/TICTACTOE.068662711d2fbd8840d4.png",
-    "static/media/crypto.ico": "/kushwaha/static/media/crypto.e1c3dac56ec512816976.ico",
-    "static/media/expense.ico": "/kushwaha/static/media/expense.29e60cd5d5c22abd04b1.ico",
-    "static/media/hex.png": "/kushwaha/static/media/hex.c9e8ac273228acd84223.png",
-    "static/media/PORTFOLIO.webp": "/kushwaha/static/media/PORTFOLIO.a7fb44317d405ea44e5a.webp",
-    "static/media/joke.png": "/kushwaha/static/media/joke.dfd5a8fd8e22721b803a.png",
-    "static/media/BMI.jpg": "/kushwaha/static/media/BMI.353da8d3637c32bf3cf0.jpg",
-    "static/media/clac.png": "/kushwaha/static/media/clac.324896cbdd29f39eda3f.png",
-    "static/media/img20.webp": "/kushwaha/static/media/img20.97916b23378305a6092b.webp",
-    "static/media/keeper.webp": "/kushwaha/static/media/keeper.50466bbd8ff7716dcaec.webp",
+    "static/media/multi.jpg": "/kushwaha/static/media/multi.954d97283e448fb2895a.jpg",
+    "static/media/expenses.png": "/kushwaha/static/media/expenses.87cd57cd03944b2ec8f7.png",
+    "static/media/ttt.png": "/kushwaha/static/media/ttt.7c202b99ae0393f6eb4c.png",
+    "static/media/cextension.png": "/kushwaha/static/media/cextension.01b5f76284e553352641.png",
+    "static/media/chat.png": "/kushwaha/static/media/chat.8b7e5146885c1d24e45c.png",
+    "static/media/jokes.png": "/kushwaha/static/media/jokes.de36f0fa4133593d605b.png",
+    "static/media/task.png": "/kushwaha/static/media/task.bfa9a4e0732e56961007.png",
+    "static/media/social.png": "/kushwaha/static/media/social.8a26d1e6a425c39efa1a.png",
     "index.html": "/kushwaha/index.html",
-    "main.c7b2cf4e.css.map": "/kushwaha/static/css/main.c7b2cf4e.css.map",
-    "main.24517c1a.js.map": "/kushwaha/static/js/main.24517c1a.js.map"
+    "main.6f8a0cce.css.map": "/kushwaha/static/css/main.6f8a0cce.css.map",
+    "main.00f082f0.js.map": "/kushwaha/static/js/main.00f082f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7b2cf4e.css",
-    "static/js/main.24517c1a.js"
+    "static/css/main.6f8a0cce.css",
+    "static/js/main.00f082f0.js"
   ]
 }
