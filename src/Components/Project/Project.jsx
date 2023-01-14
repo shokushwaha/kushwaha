@@ -1,22 +1,21 @@
 import React, { useEffect, useState } from 'react'
 import './Project.css'
 import { motion } from 'framer-motion'
-import img1 from './PORTFOLIO.webp'
-import img2 from './TICTACTOE.png'
-import img3 from './BMI.jpg'
-import img4 from './WEATHER.jpg'
-import img5 from './joke.png'
-import img6 from './sps.png'
-import img7 from './proj2.jpg'
-import img8 from './crypto.ico'
-import img9 from './expense.ico'
-import img10 from './hex.png'
-import img11 from './clac.png'
-import img12 from './me.webp'
-import img13 from './task.jpg'
-import img14 from './keeper.webp'
-import img15 from './chat.png'
-import img20 from './img20.webp'
+import img1 from './task.png'
+import img2 from './ttt.png'
+import img3 from './weather.png'
+import img4 from './jokes.png'
+import img5 from './crypto.png'
+import img6 from './expenses.png'
+import img7 from './cextension.png'
+import img8 from './sps.png'
+import img9 from './hex.png'
+import img10 from './chat.png'
+import img11 from './social.png'
+import img12 from './multi.jpg'
+import img13 from './news.png'
+import img14 from './receipe.png'
+
 import SingleProject from './SingleProject'
 export default function Project() {
 
@@ -39,69 +38,53 @@ export default function Project() {
 
         <div className="lists">
 
-          {/* portfolio website  */}
-          <SingleProject name="Portfolio Website" img={img1} tech=" ReactJS " url="" giturl="https://github.com/shokushwaha/kushwaha" />
 
 
-          {/* e commerce website  */}
-          <SingleProject name="Social Media App" img={img7} tech=" MERN " url="" giturl="https://github.com/shokushwaha/social-media-app-rest-api" />
 
+          {/* social media website  */}
+          <SingleProject name="Social Media App" img={img11} tech=" MERN " url="" giturl="https://github.com/shokushwaha/social-media-app-rest-api" desc="A Social Media app to build a network with the functionality of making friends,uploading photos,like and comment on them." />
 
           {/* chat app  */}
-          <SingleProject name="Chat App" img={img15} tech=" ReactJS Socket.io " url="" giturl="https://github.com/shokushwaha/chat-app" />
+          <SingleProject name="Chatify" img={img10} tech=" ReactJS  Socket.io " url="" giturl="https://github.com/shokushwaha/chat-app" desc="Chatify is an application to text chat with your friends." />
+
+          {/* react native app having multiple functions  */}
+          <SingleProject name="Comboo" img={img12} tech=" React Native " url="" giturl="https://github.com/shokushwaha/multi-utility-react-native-app" desc="Comboo is a cross platform application having weather app ,calulator,todolist,clock." />
+
+          {/* receipes app  */}
+          <SingleProject name="Receipess" img={img14} tech=" ReactJS " url="" giturl="https://github.com/shokushwaha/react-vite-receipes-app" desc="Receipess is an application to find receipe of any food." />
 
           {/* keeper app  */}
-          <SingleProject name="Keeper App" img={img14} tech=" React Native" url="" giturl="https://github.com/shokushwaha/react-native-task-keeper" />
+          <SingleProject name="ManageTasks" img={img1} tech=" React Native" url="" giturl="https://github.com/shokushwaha/react-native-task-keeper" desc="ManageTasks is a cross platform application to keep a track on your daily tasks." />
 
+          {/* Socail media sites blocker extension  */}
+          <SingleProject name="BlockSocial" img={img7} tech=" Javascript " url="" giturl="https://github.com/shokushwaha/chrome-extension-social-sites-blocker" desc="BlockSocial is a chrome extension to block all the social media sites and ott platforms." />
 
           {/* expense tracker  */}
-          <SingleProject name="Expense Tracker" img={img9} tech=" ReactJS " url="https://expenses-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/expense-tracker" />
-
-
+          <SingleProject name="Expenses" img={img6} tech=" ReactJS " url="https://expenses-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/expense-tracker" desc="Expenses is an application to manage all ur expenses at one place." />
 
           {/* News App  */}
-          <SingleProject name="News App" img={img20} tech=" ReactJS " url="https://news-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/news-app-react" />
-
-
-
-
+          <SingleProject name="NewsIttt" img={img13} tech=" ReactJS " url="https://news-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/news-app-react" desc="NewsIttt is an application to read latest news articles of all categories." />
 
           {/* weather app  */}
-          <SingleProject name="Weather App" img={img4} tech=" ReactJS " url="  https://weathershobhit.netlify.app/" giturl="https://github.com/shokushwaha/Weather-App-React" />
-          {/* task manager  */}
-          <SingleProject name="Task Manager" img={img13} tech=" ReactJS " url="        https://taskit-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/todolist-react-local-storage" />
-
+          <SingleProject name="Weatherr" img={img3} tech=" ReactJS " url="  https://weathershobhit.netlify.app/" giturl="https://github.com/shokushwaha/Weather-App-React" desc="Weatherr is an application to fetch weather information of any place." />
 
           {/* crypto price tracker  */}
-          <SingleProject name="Crypto Price" img={img8} tech=" ReactJS " url=" https://crypto-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/crypto-price-tracker" />
-
+          <SingleProject name="CryptoP" img={img5} tech=" ReactJS " url=" https://crypto-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/crypto-price-tracker" desc="CryptoP is an application to keep you updated with the latest prices of crypto currencies." />
 
           {/* random jokes  */}
-          <SingleProject name="Random Jokes" img={img5} tech=" ReactJS " url="  https://joke-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/jokes-app-" />
+          <SingleProject name="Jokess" img={img4} tech=" ReactJS " url="  https://joke-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/jokes-app-" desc="Jokess is an application to keep you fresh with a new joke everytime." />
 
-          {/* bmi calculator  */}
-          <SingleProject name="BMI Calculator" img={img3} tech="HTML , CSS, Javascript " url=" https://shokushwaha.github.io/BMI-Calculator/" giturl="https://github.com/shokushwaha/BMI-Calculator" />
-
-
-
-          {/* old portfolio  */}
-          <SingleProject name="Portfolio" img={img12} tech="  HTML , CSS, Javascript " url="  https://shokushwaha.github.io/ImShobhitKushwaha.github.io/" giturl="https://github.com/shokushwaha/ImShobhitKushwaha.github.io" />
           {/* tic tac toe  */}
-
-
-          <SingleProject name="Tic Tac Toe" img={img2} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/tictactoe.shobhitkushwaha.github.io/" giturl="" />
-
+          <SingleProject name="Tic Tac Toe" img={img2} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/tictactoe.shobhitkushwaha.github.io/" giturl="" desc="Tic Tac Toe is an application to play tic tac toe." />
 
           {/* rock paper scissior  */}
-          <SingleProject name="Stone Paper Scissior" img={img6} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/rock_paper_scissor_shobhitkushwaha-github-io/" giturl="" />
+          <SingleProject name="Stone Paper Scissior" img={img8} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/rock_paper_scissor_shobhitkushwaha-github-io/" giturl="" desc="Stone Paper Scissior is an application to play stone paper scissior." />
 
 
           {/* random hex color generator  */}
-          <SingleProject name="Hex Color Generator" img={img10} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/Random-Awesome-Hex-Generator/" giturl="" />
+          <SingleProject name="AwsmHexx" img={img9} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/Random-Awesome-Hex-Generator/" giturl="" desc="AwsmHexx is an application to provide linear hex background css code." />
 
 
-          {/* Calculator  */}
-          <SingleProject name="Calculator" img={img11} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/Calculator/" giturl="" />
 
 
         </div>

@@ -26,8 +26,8 @@
 .lists {
     /* border: 2px solid red; */
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+
     /* background: url('./HiRes-17-1024x615.jpg'); */
     background-color: #122223;
     background-repeat: no-repeat;
@@ -39,11 +39,13 @@
 
 .pro {
     /* border: 2px solid green; */
-    width: 30%;
+    width: 40%;
     margin: 10px auto;
     border-radius: 8px;
-    padding: 10px;
-    height: 120px;
+
+    height: auto;
+    padding: 20px;
+    margin: 4px auto;
     background-color: #eae5d2;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 20px;
@@ -62,7 +64,21 @@
 }
 
 .pro>img {
-    width: 100px;
+    width: 200px;
+    height: 200px;
+}
+
+.proHeading {
+    font-size: 25px;
+}
+
+.proTech {
+    padding: 10px;
+    color: gray;
+}
+
+.desc {
+    color: #656363;
 }
 
 .info {
@@ -107,18 +123,22 @@
 }
 
 .x a {
-    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 4px auto;
+    margin-top: 10px;
+    margin: 10px 4px;
+
 
 }
+
 
 @media screen and (max-width: 600px) {
     .lists {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
         margin: 20px auto;
 
     }
@@ -127,19 +147,56 @@
     .pro {
         margin: 10px auto;
         width: 80%;
-        height: 20%;
+        /* height: 20%;  */
+        display: flex;
+        flex-direction: column;
+        height: auto;
 
+    }
+
+    img {
+
+        margin: 10px auto;
+        /* width: 40px; */
+    }
+
+    .proHeading {
+        text-align: center;
+    }
+
+    .proTech {
+        text-align: center;
+    }
+
+    .desc {
+        width: 100%;
+        text-align: center;
     }
 
     .info {
 
         margin: 10px auto;
-        margin-left: 20px;
-
-    }
-
-    .x {
+        /* margin-left: 20px; */
         display: flex;
         flex-direction: column;
     }
+
+
+    .x {
+        display: flex;
+        /* flex-direction: column; */
+        margin: 0px auto;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .x a {
+
+        text-align: center;
+        margin: 10px 4px;
+    }
+
+
 }
