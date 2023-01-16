@@ -12,9 +12,9 @@ export default function Skills() {
         <ol className="list">
           <motion.div
             className="container text-center"
-            initial={{ opacity: 0, y: "1000px" }}
+            initial={{ opacity: 0, y: "2000px" }}
             animate={{ opacity: 1, y: "0px" }}
-            exit={{ opacity: 0, y: "200px" }}
+            exit={{ opacity: 0, y: "2000px" }}
             transition={{ duration: 1, delay: 0.4 }}
           >
 
@@ -27,7 +27,7 @@ export default function Skills() {
 
 
                 <li>ReactJS & Redux</li>
-                <li>NextJS</li>
+                <li>React Native</li>
                 <li> HTML</li>
                 <li> CSS & SCSS</li>
                 <li> Bootstrap + Material UI</li>
@@ -36,7 +36,7 @@ export default function Skills() {
           </motion.div>
           <motion.div
             className="container text-center"
-            initial={{ opacity: 0, y: "-1000px" }}
+            initial={{ opacity: 0, y: "-2000px" }}
             animate={{ opacity: 1, y: "0px" }}
             exit={{ opacity: 0, y: "0px" }}
             transition={{ duration: 1, delay: 0.4 }}
@@ -55,7 +55,7 @@ export default function Skills() {
             </li></motion.div>
           <motion.div
             className="container text-center"
-            initial={{ opacity: 0, y: "1000px" }}
+            initial={{ opacity: 0, y: "2000px" }}
             animate={{ opacity: 1, y: "0px" }}
             exit={{ opacity: 0, y: "200px" }}
             transition={{ duration: 1, delay: 0.4 }}
@@ -72,7 +72,7 @@ export default function Skills() {
             </li>
           </motion.div> <motion.div
             className="container text-center"
-            initial={{ opacity: 0, y: "-1000px" }}
+            initial={{ opacity: 0, y: "-2000px" }}
             animate={{ opacity: 1, y: "0px" }}
             exit={{ opacity: 0, y: "0px" }}
             transition={{ duration: 1, delay: 0.4 }}

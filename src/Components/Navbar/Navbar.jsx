@@ -28,6 +28,8 @@ export default function Navbar() {
       exit={{ opacity: 0, y: "-200px" }}
       transition={{ duration: 1 }}
     >
+
+
       <div className="navbar">
 
 

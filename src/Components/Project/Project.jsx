@@ -44,7 +44,7 @@ export default function Project() {
           <SingleProject name="Blog Website" img={img15} tech=" ReactJS,Firebase " url="https://blogs-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/blog-app-react-firebase" desc="A blogging website to write blogs and publish them worldwide." />
 
           {/* social media website  */}
-          <SingleProject name="Social Media App" img={img11} tech=" MERN " url="" giturl="https://github.com/shokushwaha/social-media-app-rest-api" desc="A Social Media app to build a network with the functionality of making friends,uploading photos,like and comment on them." />
+          <SingleProject name="Social Media App Rest API" img={img11} tech=" MERN " url="" giturl="https://github.com/shokushwaha/social-media-app-rest-api" desc="A Rest API for a Social Media app to build a network with the functionality of making friends,uploading photos,like and comment on them." />
 
           {/* chat app  */}
           <SingleProject name="Chatify" img={img10} tech=" ReactJS  Socket.io " url="" giturl="https://github.com/shokushwaha/chat-app" desc="Chatify is an application to text chat with your friends." />
