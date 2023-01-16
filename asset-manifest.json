@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kushwaha/static/css/main.6f8a0cce.css",
-    "main.js": "/kushwaha/static/js/main.0cf8d30b.js",
+    "main.js": "/kushwaha/static/js/main.95d5082a.js",
     "static/media/weather.png": "/kushwaha/static/media/weather.510ccd9c72fa82b9e6e9.png",
     "static/media/sps.png": "/kushwaha/static/media/sps.acf1743d16b2bdaa93d3.png",
     "static/media/hex.png": "/kushwaha/static/media/hex.28e3d41714e875f73a04.png",
@@ -20,10 +20,10 @@
     "static/media/blog.png": "/kushwaha/static/media/blog.3637b1dc0c43eec3213d.png",
     "index.html": "/kushwaha/index.html",
     "main.6f8a0cce.css.map": "/kushwaha/static/css/main.6f8a0cce.css.map",
-    "main.0cf8d30b.js.map": "/kushwaha/static/js/main.0cf8d30b.js.map"
+    "main.95d5082a.js.map": "/kushwaha/static/js/main.95d5082a.js.map"
   },
   "entrypoints": [
     "static/css/main.6f8a0cce.css",
-    "static/js/main.0cf8d30b.js"
+    "static/js/main.95d5082a.js"
   ]
 }
