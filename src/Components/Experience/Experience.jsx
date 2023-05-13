@@ -51,22 +51,6 @@ export default function Experience() {
 
 
 
-              <VerticalTimelineElement
-                className="vertical-timeline-element--work"
-                date="June 2022 - September 2022"
-                iconStyle={{ background: "#da9e63", color: " #122223", boxShadow: "0px 0px 40px #efe2ba" }}
-                icon={<Work />}
-              >
-                <h3 className="vertical-timeline-element-title i2">
-                  Campus Ambassador - engineerHUB
-                </h3>
-                <h4 className="vertical-timeline-element-subtitle">
-                  Internship
-                </h4>
-                <p>
-                  Spreading the organisation   in different colleges communities.
-                </p>
-              </VerticalTimelineElement>
 
 
               <VerticalTimelineElement
@@ -101,6 +85,23 @@ export default function Experience() {
                 </h4>
                 <p>
                   Senior Coordinator in Internal Management Team.
+                </p>
+              </VerticalTimelineElement>
+
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date="March 2023 - Present"
+                iconStyle={{ background: "#33ff00", color: " #122223 ", boxShadow: "0px 0px 40px #efe2ba" }}
+                icon={<Work />}
+              >
+                <h3 className="vertical-timeline-element-title i3">
+                  Full Stack Developer - FutraInc
+                </h3>
+                <h4 className="vertical-timeline-element-subtitle">
+                  Internship
+                </h4>
+                <p>
+                  Working on modern technologies like Next.js and developing modern apps.
                 </p>
               </VerticalTimelineElement>
             </VerticalTimeline>

@@ -7,7 +7,7 @@ export default function Home() {
   const [text, setText] = useState("");
   const [sentence, setSentence] = useState(`I'm Shobhit Kushwaha`);
   const [cnt, setCnt] = useState(0);
-  const [quote, setAuote] = useState(`MERN Stack Developer & Competitive Programmer`);
+  const [quote, setAuote] = useState(`Full Stack || Blockchain || Competitive Programming`);
   const [intro, setIntro] = useState("");
 
   useEffect(() => {
@@ -58,7 +58,7 @@ export default function Home() {
               transition={{ duration: 2, delay: 2 }}
             >
               <div className="lines">
-                Full Stack web developer with a flair for creating elegant solutions in the least amount of time. I love to code and talk about Development and loves to solve problems. Feel free to reach me....
+                Full Stack & Blockchain developer with a flair for creating elegant solutions in the least amount of time. I love to code and talk about Development and loves to solve problems. Feel free to reach me....
               </div> </motion.div>
             <motion.div
               className="container text-center"

@@ -24,13 +24,12 @@ export default function Skills() {
 
               <h2> Front-End</h2>
               <span>
-
-
                 <li>ReactJS & Redux</li>
+                <li>NextJS</li>
                 <li>React Native</li>
-                <li> HTML</li>
-                <li> CSS & SCSS</li>
-                <li> Bootstrap + Material UI</li>
+                <li>Tailwind CSS</li>
+                <li>Styled Components</li>
+                <li> CSS + UI Frameworks</li>
               </span>
             </li>
           </motion.div>
@@ -44,11 +43,11 @@ export default function Skills() {
             <li className="item">
               <h2>Back-End</h2>
               <span>
-
                 <li>NodeJS</li>
                 <li>ExpressJS</li>
-                <li>Typescript</li>
-                <li>Mongoose</li>
+                <li>GraphQL</li>
+                <li>Firebase</li>
+                <li>AWS</li>
                 <li>MongoDB</li>
                 <li>MySQL</li>
               </span>
@@ -65,7 +64,8 @@ export default function Skills() {
               <span>
                 <li>C++</li>
                 <li>C</li>
-                <li>Javsacript</li>
+                <li>Solidity</li>
+                <li>Javsacript + Typescript</li>
                 <li>Java</li>
                 <li>Python</li>
               </span>
@@ -80,11 +80,10 @@ export default function Skills() {
             <li className="item">
               <h2>Other Tech</h2>
               <span>
-                <li> NPM + Yarn</li>
+                <li>Web3</li>
+                <li>Hardhat + Polygon</li>
                 <li>Apache</li>
                 <li>XAMP</li>
-                <li>VS Code</li>
-                <li>Android Studio</li>
                 <li>Linux</li>
               </span>
             </li>
@@ -97,15 +96,15 @@ export default function Skills() {
           <div className="awards">
             <ul>
               <li>  <ArchiveRounded /> AIR 1739 in Google Kickstart 2022</li>
-              <li>  <ArchiveRounded />AIR 201 in Codechef Starters 2022</li>
-              <li> <ArchiveRounded />300+ Questions on LeetCode</li>
-              <li> <ArchiveRounded />250+ Questions on Geeks For Geeks</li>
+              <li>  <ArchiveRounded />4⭐ on Codechef & Pupil on Codeforces</li>
+              <li> <ArchiveRounded />400+ Questions on LeetCode</li>
+              <li> <ArchiveRounded />500+ Questions on Geeks For Geeks</li>
             </ul>
           </div>
           <div className="coding">
             <a href="https://leetcode.com/shobhitkushwaha1406" target="_blank" className='tempp'>   <LinkRounded /> Leetcode</a>
             <a href="https://auth.geeksforgeeks.org/user/kushwahashobhit255" target="_blank" className='tempp'> <LinkRounded />  Geeks For Geeks</a>
-            <a href="https://www.hackerrank.com/kushwahashobhit1" target="_blank" className='tempp'> <LinkRounded />  HackerRank</a>
+            <a href="https://www.hackerrank.com/kushwahashobhit1" target="_blank" className='tempp'> <LinkRounded /> HackerRank</a>
           </div>
         </div>
       </div>

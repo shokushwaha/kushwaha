@@ -17,6 +17,14 @@ import img13 from './news.png'
 import img14 from './receipe.png'
 import img15 from './blog.png'
 
+import img16 from './admin.png'
+import img17 from './ecommerce.png'
+import img18 from './clipper.png'
+import img19 from './twitter.png'
+import img20 from './file.png'
+import img21 from './kart.png'
+import img22 from './cs.png'
+
 import SingleProject from './SingleProject'
 export default function Project() {
 
@@ -39,15 +47,36 @@ export default function Project() {
 
         <div className="lists">
 
+          {/* Ecommerce Admin Panel */}
+          <SingleProject name="NextZone - Admin Panel" img={img16} tech="NextJS,Mongodb,AWS.TailwindCSS" url="" giturl="https://github.com/shokushwaha/ecom-admin-panel" desc="Admin Panel for an ecommerce website." />
+
+          {/* Ecommerce Website */}
+          <SingleProject name="NextZone - Ecommerce Platform" img={img17} tech="NextJS,Mongodb,Cloudinary.TailwindCSS" url="" giturl="https://github.com/shokushwaha/ecom-client" desc="An ecommerce website." />
+
+          {/*Clipper */}
+          < SingleProject name="Clipper" img={img18} tech="NextJS,Firebase,TailwindCSS " url="" giturl="https://github.com/shokushwaha/Clipper" desc="A video storing and streaming platform with advanced features" />
+
+
+          {/* Twitter Decentralized*/}
+          <SingleProject name="Twitter - Decentralized" img={img19} tech=" ReactJS,Solidity " url="https://twitter-decentralized-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/twitter-decentralized" desc="Twitter using decentralized technologies" />
+
+          {/* Antisocial*/}
+          <SingleProject name="Antisocial" img={img11} tech=" ReactJS,React-ChatEngine " url="" giturl="https://github.com/shokushwaha/antisocial" desc="Chat Application" />
+
+
+          {/*CodeSync*/}
+          <SingleProject name="CodeSync" img={img22} tech=" ReactJS,Socket.io " url="https://codev-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/code-sync" desc="A real time code sharing applicaiton." />
+
+          {/*Dkart*/}
+          <SingleProject name="Dkart" img={img21} tech=" ReactJS,Solidity " url="" giturl="https://github.com/shokushwaha/e-commerce-marketplace-decentralized" desc="A decentralized ecommerce platform." />
+
+
+          {/*File Sharing Decentralized*/}
+          <SingleProject name="Decentralized File Sharing" img={img20} tech=" v " url="" giturl="https://github.com/shokushwaha/file-sharing-decentralized" desc="A file sharing application utitilizing peer to peer connections." />
+
 
           {/* blog app  */}
           <SingleProject name="Blog Website" img={img15} tech=" ReactJS,Firebase " url="https://blogs-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/blog-app-react-firebase" desc="A blogging website to write blogs and publish them worldwide." />
-
-          {/* social media website  */}
-          <SingleProject name="Social Media App Rest API" img={img11} tech=" MERN " url="" giturl="https://github.com/shokushwaha/social-media-app-rest-api" desc="A Rest API for a Social Media app to build a network with the functionality of making friends,uploading photos,like and comment on them." />
-
-          {/* chat app  */}
-          <SingleProject name="Chatify" img={img10} tech=" ReactJS  Socket.io " url="" giturl="https://github.com/shokushwaha/chat-app" desc="Chatify is an application to text chat with your friends." />
 
           {/* react native app having multiple functions  */}
           <SingleProject name="Comboo" img={img12} tech=" React Native " url="" giturl="https://github.com/shokushwaha/multi-utility-react-native-app" desc="Comboo is a cross platform application having weather app ,calulator,todolist,clock." />
@@ -64,27 +93,7 @@ export default function Project() {
           {/* expense tracker  */}
           <SingleProject name="Expenses" img={img6} tech=" ReactJS " url="https://expenses-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/expense-tracker" desc="Expenses is an application to manage all ur expenses at one place." />
 
-          {/* News App  */}
-          <SingleProject name="NewsIttt" img={img13} tech=" ReactJS " url="https://news-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/news-app-react" desc="NewsIttt is an application to read latest news articles of all categories." />
 
-          {/* weather app  */}
-          <SingleProject name="Weatherr" img={img3} tech=" ReactJS " url="  https://weathershobhit.netlify.app/" giturl="https://github.com/shokushwaha/Weather-App-React" desc="Weatherr is an application to fetch weather information of any place." />
-
-          {/* crypto price tracker  */}
-          <SingleProject name="CryptoP" img={img5} tech=" ReactJS " url=" https://crypto-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/crypto-price-tracker" desc="CryptoP is an application to keep you updated with the latest prices of crypto currencies." />
-
-          {/* random jokes  */}
-          <SingleProject name="Jokess" img={img4} tech=" ReactJS " url="  https://joke-shobhit.netlify.app/" giturl="https://github.com/shokushwaha/jokes-app-" desc="Jokess is an application to keep you fresh with a new joke everytime." />
-
-          {/* tic tac toe  */}
-          <SingleProject name="Tic Tac Toe" img={img2} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/tictactoe.shobhitkushwaha.github.io/" giturl="" desc="Tic Tac Toe is an application to play tic tac toe." />
-
-          {/* rock paper scissior  */}
-          <SingleProject name="Stone Paper Scissior" img={img8} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/rock_paper_scissor_shobhitkushwaha-github-io/" giturl="" desc="Stone Paper Scissior is an application to play stone paper scissior." />
-
-
-          {/* random hex color generator  */}
-          <SingleProject name="AwsmHexx" img={img9} tech="  HTML , CSS, Javascript " url="https://shokushwaha.github.io/Random-Awesome-Hex-Generator/" giturl="" desc="AwsmHexx is an application to provide linear hex background css code." />
 
 
 
