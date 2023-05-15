@@ -1,14 +1,17 @@
 {
   "files": {
     "main.css": "/kushwaha/static/css/main.6f8a0cce.css",
-    "main.js": "/kushwaha/static/js/main.95d5082a.js",
+    "main.js": "/kushwaha/static/js/main.f47100ea.js",
     "static/media/weather.png": "/kushwaha/static/media/weather.510ccd9c72fa82b9e6e9.png",
     "static/media/sps.png": "/kushwaha/static/media/sps.acf1743d16b2bdaa93d3.png",
     "static/media/hex.png": "/kushwaha/static/media/hex.28e3d41714e875f73a04.png",
     "static/media/news.png": "/kushwaha/static/media/news.a681b916350ca465da83.png",
+    "static/media/kart.png": "/kushwaha/static/media/kart.6b058681539a366f044a.png",
+    "static/media/admin.png": "/kushwaha/static/media/admin.4a72163bb39e4e2cad7f.png",
     "static/media/receipe.png": "/kushwaha/static/media/receipe.89ad44dba11f0d22cfc5.png",
+    "static/media/ecommerce.png": "/kushwaha/static/media/ecommerce.a4b32cabb78761ec016e.png",
+    "static/media/Shobhit.pdf": "/kushwaha/static/media/Shobhit.71169413a03eec630f01.pdf",
     "static/media/crypto.png": "/kushwaha/static/media/crypto.63c83665fa5bf1ae225d.png",
-    "static/media/Shobhit.pdf": "/kushwaha/static/media/Shobhit.01de5dc8de83d10d3b30.pdf",
     "static/media/multi.jpg": "/kushwaha/static/media/multi.954d97283e448fb2895a.jpg",
     "static/media/expenses.png": "/kushwaha/static/media/expenses.87cd57cd03944b2ec8f7.png",
     "static/media/ttt.png": "/kushwaha/static/media/ttt.7c202b99ae0393f6eb4c.png",
@@ -20,10 +23,10 @@
     "static/media/blog.png": "/kushwaha/static/media/blog.3637b1dc0c43eec3213d.png",
     "index.html": "/kushwaha/index.html",
     "main.6f8a0cce.css.map": "/kushwaha/static/css/main.6f8a0cce.css.map",
-    "main.95d5082a.js.map": "/kushwaha/static/js/main.95d5082a.js.map"
+    "main.f47100ea.js.map": "/kushwaha/static/js/main.f47100ea.js.map"
   },
   "entrypoints": [
     "static/css/main.6f8a0cce.css",
-    "static/js/main.95d5082a.js"
+    "static/js/main.f47100ea.js"
   ]
 }
