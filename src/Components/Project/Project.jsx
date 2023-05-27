@@ -24,6 +24,7 @@ import img19 from './twitter.png'
 import img20 from './file.png'
 import img21 from './kart.png'
 import img22 from './cs.png'
+import img23 from './codehub.png'
 
 import SingleProject from './SingleProject'
 export default function Project() {
@@ -48,13 +49,17 @@ export default function Project() {
         <div className="lists">
 
           {/* Ecommerce Admin Panel */}
-          <SingleProject name="NextZone - Admin Panel" img={img16} tech="NextJS,Mongodb,AWS.TailwindCSS" url="" giturl="https://github.com/shokushwaha/ecom-admin-panel" desc="Admin Panel for an ecommerce website." />
+          <SingleProject name="NextZone - Admin Panel" img={img16} tech="NextJS,Mongodb,AWS, TailwindCSS" url="" giturl="https://github.com/shokushwaha/ecom-admin-panel" desc="Admin Panel for an ecommerce website." />
 
           {/* Ecommerce Website */}
-          <SingleProject name="NextZone - Ecommerce Platform" img={img17} tech="NextJS,Mongodb,Cloudinary.TailwindCSS" url="" giturl="https://github.com/shokushwaha/ecom-client" desc="An ecommerce website." />
+          <SingleProject name="NextZone - Ecommerce Platform" img={img17} tech="NextJS,Mongodb,Cloudinary, TailwindCSS" url="https://nextzone-shobhit.netlify.com" giturl="https://github.com/shokushwaha/ecom-client" desc="An ecommerce website." />
 
           {/*Clipper */}
-          < SingleProject name="Clipper" img={img18} tech="NextJS,Firebase,TailwindCSS " url="" giturl="https://github.com/shokushwaha/Clipper" desc="A video storing and streaming platform with advanced features" />
+          <SingleProject name="Clipper" img={img18} tech="NextJS,Firebase,TailwindCSS, Firebase " url="" giturl="https://github.com/shokushwaha/Clipper" desc="A video storing and streaming platform with advanced featur" />
+
+
+          {/*CodeHub */}
+          <SingleProject name="CodeHub" img={img23} tech="NextJS,Firebase,TailwindCSS, MongoDB " url="https://codehub-shobhit.netlify.com" giturl="https://github.com/shokushwaha/codehub" desc="A blogging platform for all the developers around the platform" />
 
 
           {/* Twitter Decentralized*/}
