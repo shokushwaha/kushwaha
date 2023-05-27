@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kushwaha/static/css/main.6f8a0cce.css",
-    "main.js": "/kushwaha/static/js/main.f47100ea.js",
+    "main.js": "/kushwaha/static/js/main.78506a66.js",
     "static/media/weather.png": "/kushwaha/static/media/weather.510ccd9c72fa82b9e6e9.png",
     "static/media/sps.png": "/kushwaha/static/media/sps.acf1743d16b2bdaa93d3.png",
     "static/media/hex.png": "/kushwaha/static/media/hex.28e3d41714e875f73a04.png",
@@ -12,6 +12,7 @@
     "static/media/ecommerce.png": "/kushwaha/static/media/ecommerce.a4b32cabb78761ec016e.png",
     "static/media/Shobhit.pdf": "/kushwaha/static/media/Shobhit.71169413a03eec630f01.pdf",
     "static/media/crypto.png": "/kushwaha/static/media/crypto.63c83665fa5bf1ae225d.png",
+    "static/media/codehub.png": "/kushwaha/static/media/codehub.daca11d8abf32910c160.png",
     "static/media/multi.jpg": "/kushwaha/static/media/multi.954d97283e448fb2895a.jpg",
     "static/media/expenses.png": "/kushwaha/static/media/expenses.87cd57cd03944b2ec8f7.png",
     "static/media/ttt.png": "/kushwaha/static/media/ttt.7c202b99ae0393f6eb4c.png",
@@ -23,10 +24,10 @@
     "static/media/blog.png": "/kushwaha/static/media/blog.3637b1dc0c43eec3213d.png",
     "index.html": "/kushwaha/index.html",
     "main.6f8a0cce.css.map": "/kushwaha/static/css/main.6f8a0cce.css.map",
-    "main.f47100ea.js.map": "/kushwaha/static/js/main.f47100ea.js.map"
+    "main.78506a66.js.map": "/kushwaha/static/js/main.78506a66.js.map"
   },
   "entrypoints": [
     "static/css/main.6f8a0cce.css",
-    "static/js/main.f47100ea.js"
+    "static/js/main.78506a66.js"
   ]
 }
